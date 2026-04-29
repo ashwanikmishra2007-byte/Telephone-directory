@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Directory</title>
+    <link rel="stylesheet" href="td.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <p class="title">Telephone Directory</p>
+    <div class="telephone">
+        <form  id="td">
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name"><br><br>
+            </div>
+            <div class="phone">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter phone number"><br><br>
+            </div>
+            <div class="control">
+                <button type="submit" id="add">Add to Directory</button>
+                <button type="button" id="delete">Delete from Directory</button>
+            </div>
+        </form>
+    </div>
+    <div class="result">
+        <p id="resultin">Hello, insert or delete entries!</p>
+    </div>
+    <script src="td.js"></script>
+</body>
+</html>

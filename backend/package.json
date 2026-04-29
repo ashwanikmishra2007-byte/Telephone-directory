@@ -1,0 +1,11 @@
+{
+  "name": "telephone-directory",
+  "version": "1.0.0",
+  "description": "Simple telephone directory",
+  "main": "backend.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "author": "",
+  "license": "ISC"
+}

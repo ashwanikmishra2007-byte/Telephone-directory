@@ -1,0 +1,66 @@
+.title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:80px;
+    font-weight: bold;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.telephone {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telephone input {
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name, .phone{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.control {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#delete {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.result {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#resultin {
+    font-size: 30px;
+    font-weight: bold;
+}
